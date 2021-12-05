@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-colors="primary">
+<html lang="en" data-colors="primary" background-color: "black">
 
 <head>
     <meta charset="UTF-8">
@@ -24,6 +24,7 @@
     <link rel='dns-prefetch' href='//use.typekit.net' />
     <link rel='dns-prefetch' href='//unpkg.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
+    <meta name="theme-color" content="#000000"/>
     <link rel="alternate" type="application/rss+xml" title="Margate House Films &raquo; Homepage Comments Feed" href="https://margatehousefilms.com/sample-page/feed/" />
     <link rel='stylesheet' id='theme-css' href='style.css' type='text/css' media='all' />
     <link rel='stylesheet' id='typekit-css' href='https://use.typekit.net/mzz4zux.css?ver=5.8.2' type='text/css' media='all' />
@@ -141,7 +142,7 @@ ul {
 
         <section class="home-about spacer-xxl scroll-to">
             <div class="home-about__intro page-padding  heading heading-m spacer-l ani" data-splitting>
-                welcome to my little corner of the internet.<br /><br /> i'm rajan—a 16 year old hacktivist & author based in toronto. i build, write and redefine.</div>
+                welcome to my little corner of the internet.<br /><br /> i'm rajan—a 16 y/o hacktivist & author baesd in toronto. i build, write and redefine.</div>
 
 
             <div class="home-about__content">
@@ -274,7 +275,7 @@ ul {
                 <div class="home-film__accordion">
                     <div class="active">
                         <h1 class="home-film__accordion-title heading heading-m tt-uppercase">
-                            breaking <span class="font-lig">Barriers</span> </h1>
+                            <div className="headingtextventures">breaking <span class="font-lig">Barriers</span></div> </h1>
                     </div>
                     <div class="home-film__accordion-content" style="max-height: 9999px;">
                         <a target="_blank" href="https://www.youtube.com/watch?v=ieeZ0mviFKc&t=11s" class="home-film__accordion-visuals poster ch">
@@ -300,7 +301,7 @@ ul {
                 <div class="home-film__accordion">
                     <div class="active">
                         <h1 class="home-film__accordion-title heading heading-m tt-uppercase">
-                            Run <span class="font-lig">For Hope</span> </h1>
+                            <div className="headingtextventures"> Run <span class="font-lig">For Hope</span> </div></h1>
                     </div>
                     <div class="home-film__accordion-content" style="max-height: 9999px;">
                         <a target="_blank" href="https://www.youtube.com/watch?v=ieeZ0mviFKc&t=11s" class="home-film__accordion-visuals poster ch">
@@ -326,7 +327,7 @@ ul {
                 <div class="home-film__accordion">
                     <div class="active">
                         <h1 class="home-film__accordion-title heading heading-m tt-uppercase">
-                             <span class="font-lig">Artificially</span> Inspired </h1>
+                             <div className="headingtextventures"> <span class="font-lig" style="text-align: center;">   Artificially</span> Inspired </div></h1>
                     </div>
                     <div class="home-film__accordion-content" style="max-height: 9999px;">
                         <a target="_blank" href="https://www.youtube.com/watch?v=ieeZ0mviFKc&t=11s" class="home-film__accordion-visuals poster ch">
@@ -340,7 +341,7 @@ ul {
                                 <div class="home-film__accordion-quote-wrap content-m">
                                     <p class="text text-xl italic">Poetry is when an emtion has found its thought and the thought has found words. The vast world of poetry is ready to take that next step.</p>
                                     
-                                    <p class="text text-xl italic">While playing around with OpenAI and a few neural networks, I came across an idea; immersify the poetry we write. Machines may not have emotions, but they have the ability to intelligently represent our expression on a larger scale. Artificially Inspired aims to create the next generation of literary expression for poets and artists, right from their laptop.</p>
+                                    <p class="text text-xl">While playing around with OpenAI and a few neural networks, I came across an idea; immersify the poetry we write. Machines may not have emotions, but they have the ability to intelligently represent our expression on a larger scale. Artificially Inspired aims to create the next generation of literary expression for poets and artists, right from their laptop.</p>
                                     
                                 </div>
                             </div>
@@ -352,6 +353,18 @@ ul {
             </div>
 
         </section>
+
+        <style>
+@media (max-width: 600px) {
+  .headingtextventures {
+    text-align: center !important;
+  }
+}
+
+          
+        </style>
+
+
         <section class="home-about spacer-xxl scroll-to">
             <div class="home-about__intro page-padding  heading heading-m spacer-l ani" data-splitting>
                 it's time to make your move.<br /><br />catch me mindlessly scrolling on twitter & instagram, or making late night ships on github.</div>
