@@ -2618,3 +2618,19 @@ html[data-colors="secondary"] .header .header__logo-b {
 body {
   overflow: hidden auto; }
 /*# sourceMappingURL=style.css.map */
+
+
+u {
+    background-image: linear-gradient(90deg, #ac7ff3, #71c9f5);
+    background-repeat: no-repeat;
+    background-size: 100% .2em;
+    background-position: 0 88%;
+    transition: background-size .1s ease-in;
+    -webkit-text-decoration-color: transparent;
+    text-decoration-color: transparent;
+    font-weight:500
+}
+
+u:hover {
+    background-size:100% 88%
+}
